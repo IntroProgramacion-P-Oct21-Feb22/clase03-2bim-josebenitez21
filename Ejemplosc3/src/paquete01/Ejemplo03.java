@@ -17,7 +17,7 @@ public class Ejemplo03 {
     public static void main(String[] args) {
         // Creación de arreglo bidimensionales
         
-        int[][] arreglo1 = new int[3][4];
+        int[][] arreglo1 = new int[3][10];
         int[] arregloUnidimensional;
         System.out.printf("Uso de la opción length: %d\n", arreglo1.length);
         
@@ -26,7 +26,7 @@ public class Ejemplo03 {
                                                     // del arreglo unidensional 
                                                     // en funcion de la columnas
             System.out.printf("La fila es: %d\n", fila);
-            System.out.printf("El tamaño de su columana es: %d\n", 
+            System.out.printf("El tamaño de su columna es: %d\n", 
                     arregloUnidimensional.length);
             
             
